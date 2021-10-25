@@ -9,7 +9,7 @@ Reserved repository for Winter of Code 2.0 participants.
 - Mentee/Student/Participant Intake: `1-2`
 - Primary Mentor: `hritik.003391@snuindia.in`, `pratik.009169@snuindia.in`
 - Sub-domains: `Frontend`, `Backend`, `JetPack`, `Additional Libraries`
-- Platforms: `Mobile (Anroid)` - Can be made using normal XML & Kotlin or preferably using Jetpack Compose - depending on student's proposals
+- Platforms: `Mobile(Android)` - Can be made using normal XML & Kotlin or preferably using Jetpack Compose - depending on student's proposals
 - Problem Statement: A10Dance is an open-source attendance app which which will primarily be meant for the faculties/teacher wherein the teacher can record the attendance of the students using a single swipe.
 For example - Right Swipe would means present and left would mean absent. This is the basic functionality we would want you to implement and then we would move over to more complex functionalities. 
 
