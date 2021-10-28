@@ -13,6 +13,10 @@ Reserved repository for Winter of Code 2.0 participants.
 - Problem Statement: A10Dance is an open-source attendance app which which will primarily be meant for the faculties/teacher wherein the teacher can record the attendance of the students using a single swipe.
 For example - Right Swipe would means present and left would mean absent. This is the basic functionality we would want you to implement and then we would move over to more complex functionalities. 
 
+Here is a picture to help you imagine what the app would look, feel and deliver like.
+
+<img alt="Sample App image" src="./img/sample.png">
+
 **Note:** These are all my train of thoughts. Feel free to think wild and come up with new features and I've surely missed.
 
 ## FAQ
