@@ -78,7 +78,7 @@ git push origin my-feature-branch -f
 #### Check on Your Pull Request
 
 Go back to your pull request after a few minutes/days and see whether it passed the code-review 
-Everything should be fine if you're PR is green and successfully merged or code changes will be requested by the maintainers.
+Everything should be fine if your PR is green and successfully merged or code changes will be requested by the maintainers.
 
 #### Be Patient
 
