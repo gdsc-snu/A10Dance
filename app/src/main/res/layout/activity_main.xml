@@ -7,12 +7,50 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/textView"
+        android:layout_width="211dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="84dp"
+        android:fontFamily="serif-monospace"
+        android:text="A10Dance"
+        android:textAlignment="center"
+        android:textColor="@color/dark_blue"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="277dp"
+        android:layout_height="245dp"
+        android:src="@drawable/giflayout1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStartExplore"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:background="@drawable/custom_button"
+        android:text="Start Exploring"
+        android:textColor="#ffff"
+        app:backgroundTint="#041051"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gifImageView"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.button.MaterialButton>
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
