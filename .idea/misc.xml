@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/custom_button.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="app/src/main/res/drawable/ic_wave.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/start_explore_custom_button.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_visit_page.xml" value="0.14705882352941177" />
         <entry key="app/src/main/res/layout/app_about_activity.xml" value="0.1" />
       </map>
     </option>
