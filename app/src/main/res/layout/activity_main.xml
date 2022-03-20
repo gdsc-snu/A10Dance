@@ -22,33 +22,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <pl.droidsonroids.gif.GifImageView
-        android:id="@+id/gifImageView"
-        android:layout_width="277dp"
-        android:layout_height="245dp"
-        android:src="@drawable/giflayout1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.388"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnStartExplore"
-        android:layout_width="200sp"
-        android:layout_height="50sp"
-        android:background="@drawable/custom_button"
-        android:text="Start Exploring"
-        android:textColor="#ffff"
-        app:backgroundTint="#041051"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.478"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gifImageView"
-        tools:ignore="MissingConstraints">
-
-    </com.google.android.material.button.MaterialButton>
 
 
 

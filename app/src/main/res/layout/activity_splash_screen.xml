@@ -4,28 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F4F6F6"
+    android:background="#C1C6DF"
     >
-
     <ImageView
         android:id="@+id/iv_logo"
-        android:layout_width="100sp"
-        android:layout_height="100sp"
-        android:src="@drawable/book1"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="361dp"
+        android:layout_height="311dp"
+        android:layout_marginTop="132dp"
+        android:src="@drawable/splash"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <pl.droidsonroids.gif.GifImageView
-        android:id="@+id/gifSplashScreen"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="391dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="124dp"
+        android:fontFamily="@font/bangers"
+        android:gravity="center"
+        android:text="A10Dance"
+        android:textColor="#02082B"
+        android:textSize="70sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Hey Students Attendence Time"
+        android:textColor="#02082B"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UnknownId" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
